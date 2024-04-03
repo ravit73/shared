@@ -1,1 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2024-04-03T13:10:41.233Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="dbDLejKKHtRtSnFQVEwN" version="20.6.0" type="github"><diagram id="Y7CrBPUAkgmREhE-moEX" name="Stránka-1">7VfLctowFP0aZuiiM5ZNCCx5JGRB0kxpJ53uhHWx1ciWI8nh8fW9smWwebTQSbrKCt9zz9XznKuhFYyS1UTRLL6XDETL99iqFYxbvk+C6w7+WGRdItd9UgKR4syRdsCMb8CBnkNzzkA3iEZKYXjWBEOZphCaBkaVkssmbSFFc9aMRnAAzEIqDtEnzkxcoj3/eoffAY/iambS7ZeZhFZktxMdUyaXNSi4aQUjJaUpv+T8l92A7wk6x0MseGVldVC7qmQ1AoEHfVuG+OGqG1mP7+9VQWrqi7o9UcCmk/7sxzwOxGZJf95uvnhP4eercpRXKnJ3OMOcRWCXPOUpXlK5TbOuzk4veSJoitEwjLlgU7qWuZ1fGxo+V9EwlopvZGqo3TRBANPKOCkEXoMxs5UIW1TJPGXAXNEC866GdKrYrcUrBlXyeXuHvq0HjfzH6lC8LTSl2lRLqS7NZhnVcTGfDajgUYrfIVaDshNyIUZSSFVsPmAUeotwO3Et0w17MF9gJpGvdL5dYDF3PZaGmlqMzoJ6DIzXQ2eAJmIoXoxysbs+UAZWJ3VBahqbgEzAqDVSXEHgtOzMvHXpcmcN0nVYXLOF33EgdXaMtkP7dRU7IV4gyu6BKEdSW0mOynvxvTZewKeWj8SA2GNoiBZ/HvJkfpQ4CF9yrrnhMsXst3Vm2W2ZWaDB07oYb4KCzP5MOT1IVfxAEziylhPwGBXBhbYZIdOosF+DcC8Nf6VuCyc4EwVg00OZMsuaY38F2ljdI9o4BZsdZJlC2dp7aTNq4OjJjjFxjPCY2yy3k33XRxmDBE1tSe1EprCup97ic69BVR4WsDAHTk1l0bnqtnaQzmjI02haVI23zcY1H9tarMk4PiIDN4GR2Z7DyZ7DbYw+rPrOrjWQPeuTpvXJgfXJuVY/3eQP/b9u+v+vfifv5ffegd+/wksOheXvgDLr5I9n6B+fIXKGSC/W4js8Q/5Vp/kOnSlL8m6y7F/8DI1Bh4pnVWveyzpRy6IyA6X33pOiC4M6kvpok/+jTfbepE32Lpcjhru/DEWu9scruPkN</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2024-04-03T13:34:59.792Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="CbOkdWFHZJme03BUSvsD" version="20.6.0" type="github">
+  <diagram id="Y7CrBPUAkgmREhE-moEX" name="Stránka-1">
+    <mxGraphModel dx="1374" dy="791" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <object label="" id="0">
+          <mxCell />
+        </object>
+        <mxCell id="1" parent="0" />
+        <mxCell id="dLG9SXbh3lzwaZFzO0Wc-5" value="Budget Lines" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;connectable=0;container=0;" parent="1" vertex="1">
+          <mxGeometry x="30" y="210" width="160" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="dLG9SXbh3lzwaZFzO0Wc-6" value="Cost Center (str)&#xa;Budget Line Number (str)&#xa;Acquisition Type (option)&#xa;Asset Group (option)&#xa;Asset Type (option)&#xa;Group Name (str)&#xa;Name (str)&#xa;Details (long str)&#xa;Motivation (long str)&#xa;Green Bond (boolean)&#xa;Planned Approval (date)&#xa;Budget Date (date)&#xa;Put in Use (date)&#xa;Amount (money)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=1;rotatable=1;part=1;movable=1;deletable=1;editable=1;connectable=1;" parent="dLG9SXbh3lzwaZFzO0Wc-5" vertex="1">
+          <mxGeometry y="30" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="dLG9SXbh3lzwaZFzO0Wc-8" value="Request Header" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" parent="1" vertex="1">
+          <mxGeometry x="40" y="20" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dLG9SXbh3lzwaZFzO0Wc-9" value="Cost Center (str)&#xa;Description (str)&#xa;Requestor (person)&#xa;Approver(person)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=1;rotatable=1;part=1;movable=1;deletable=1;editable=1;connectable=1;" parent="dLG9SXbh3lzwaZFzO0Wc-8" vertex="1">
+          <mxGeometry y="30" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-1" value="Request Lines" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="20" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-2" value="Request Header (lookup)&#xa;Line Description (str)&#xa;Quantity (decimal)&#xa;Unit (str)&#xa;Unit Price (currency)&#xa;Budget Line (lookup)&#xa;Order (lookup)&#xa;Approval Status (option)&#xa;Purchase Order Line (lookup)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=1;rotatable=1;part=1;movable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="NErg_P-2KkyPxX-Uuv3k-1">
+          <mxGeometry y="30" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-7" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="dLG9SXbh3lzwaZFzO0Wc-9" target="NErg_P-2KkyPxX-Uuv3k-1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="370" y="170" as="sourcePoint" />
+            <mxPoint x="370" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-12" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;exitX=1.006;exitY=0.367;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dLG9SXbh3lzwaZFzO0Wc-6" target="NErg_P-2KkyPxX-Uuv3k-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="460" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-13" value="Purchase Order Lines" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="455" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-14" value="Purchase Order (int)&#xa;PO Line (int)&#xa;Order (int)&#xa;Quantity (decimal)&#xa;Unit (str)&#xa;Ordered Amount (currency)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=1;rotatable=1;part=1;movable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="NErg_P-2KkyPxX-Uuv3k-13">
+          <mxGeometry y="30" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-15" value="Asset Orders" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="20" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-16" value="Order (int)&#xa;Order Name (str)&#xa;Cost Center (str)&#xa;Status (option)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=1;rotatable=1;part=1;movable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="NErg_P-2KkyPxX-Uuv3k-15">
+          <mxGeometry y="30" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-17" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;rounded=0;entryX=1.011;entryY=0.38;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="NErg_P-2KkyPxX-Uuv3k-16" target="NErg_P-2KkyPxX-Uuv3k-2">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="360" y="460" as="sourcePoint" />
+            <mxPoint x="460" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-18" value="Request PO Relation" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d5e8d4;strokeColor=#82b366;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;connectable=1;container=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="260" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="NErg_P-2KkyPxX-Uuv3k-19" value="Purchase Order (int)&#xa;PO Line (int)&#xa;Order (int)&#xa;Quantity (decimal)&#xa;Unit (str)&#xa;Ordered Amount (currency)&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=1;rotatable=1;part=1;movable=1;deletable=1;editable=1;connectable=1;" vertex="1" parent="NErg_P-2KkyPxX-Uuv3k-18">
+          <mxGeometry y="30" width="180" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
